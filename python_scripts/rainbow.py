@@ -1,5 +1,9 @@
 import colorsys
 
+# Used to generate a rainbow for the tower. 
+# You'll need to modify it depending on what you're displaying onto. 
+# It exists as hex in Bash is annoying and it saves regenerating multiple times
+
 def hex_to_RGB(hex):
     ''' "#FFFFFF" -> [255,255,255] '''
     # Pass 16 to the integer function for change of base
